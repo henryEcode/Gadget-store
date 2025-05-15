@@ -243,6 +243,8 @@ margin-top: 1rem;
     width:12.5rem; 
 
 }
+
+
 /* End of store */
 
 
@@ -271,7 +273,13 @@ margin-top: 1rem;
     display: inline-block;
 }
 
+.socials a{
+transition: all ease-in-out 110ms;
+}
 
+.socials a:hover{
+    transform: translateY(-5px);
+}
 /* end of socials */
 /* Media query */
 
